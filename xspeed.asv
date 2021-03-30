@@ -1,0 +1,14 @@
+function [vx] = xspeed(vz,v1,v,heading)
+
+
+
+ if v1<v
+     vx = v-1
+     
+     if else v1>v
+         vx = v+1
+         
+        
+
+vx = sqrt(v^2 - vz^2)*sind(heading);
+end
